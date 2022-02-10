@@ -1,0 +1,36 @@
+<form class="form container mt-3 p-4 ps-4">
+  <h2 class="text-center mb-4">Add Student</h2>
+
+  <div class="form-group row align-items-center justify-content-between mb-3">
+    <label for="id" class="col-3">ID</label>
+    <input name ="id" type="number" id="id" class="form-control col p-2" #id>
+  </div>
+
+  <div class="form-group row align-items-center justify-content-between mb-3">
+    <label for="name" class="col-3">Name</label>
+    <input name ="name" type="text" id="name" class="form-control col p-2" #name>
+  </div>
+
+  <div class="form-group row align-items-center justify-content-between mb-3">
+    <label for="age" class="col-3">Age</label>
+    <input name ="age" type="number" id="age" class="form-control col p-2" #age>
+  </div>
+
+  <div class="form-group row align-items-center justify-content-between mb-3">
+    <label for="email" class="col-3">Email</label>
+    <input name ="email" type="email" id="email" class="form-control col p-2" #email>
+  </div>
+
+  <div class="form-group row align-items-center justify-content-between mb-3">
+    <label for="city" class="col-3">City</label>
+    <input name ="city" type="text" id="city" class="form-control col p-2" #city>
+  </div>
+
+  <div class="form-group row align-items-center justify-content-between mb-3">
+    <label for="phone" class="col-3">Phone</label>
+    <input name ="phone" type="text" id="phone" class="form-control col p-2" #phone>
+  </div>
+  <div class="row mt-4">
+    <input (click)="onStudentAdded(id, name, age, email, city, phone)" class="btn btn-outline-dark col-5 p-2 m-auto" value="Add">
+  </div>
+</form>

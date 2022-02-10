@@ -1,0 +1,31 @@
+nav {
+  background: #FBF8F1;
+  height: 70px;
+  display: flex;
+}
+
+ul {
+  margin: auto;
+}
+
+
+nav ul li a {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 21px 40px;
+  color: black !important;
+}
+
+nav ul li a:hover {
+  background: #E9DAC1;
+
+  height: 100% !important;
+}
+
+nav ul li a.active {
+  background: #E9DAC1;
+
+  height: 100% !important;
+}
+

@@ -1,0 +1,40 @@
+table thead th {
+  background: transparent;
+
+}
+table thead {
+  background: #E9DAC1;
+  border-radius: 10px;
+}
+.table{
+
+  box-shadow: -1px 4px 20px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 4px 20px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 4px 20px 2px rgba(0,0,0,0.75);
+}
+.form-control {
+  display: block;
+  border: 1px solid rgba(0, 0, 0, 0.363);
+}
+.form-control.id {
+  width: 4rem;
+}
+
+.form-control.age {
+  width:5rem;
+}
+
+.form-control.city {
+  width: 6rem;
+}
+
+.form-control.name .form-control.phone {
+  width: 10rem;
+}
+.form-control.phone {
+  width: 8rem;
+}
+
+.form-control.email {
+  width: 14rem;
+}
